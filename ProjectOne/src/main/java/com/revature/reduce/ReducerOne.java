@@ -10,20 +10,21 @@ import org.apache.hadoop.mapreduce.Reducer;
 public class ReducerOne extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
 
 	@Override
-	public void reduce(Text key, Iterable<DoubleWritable> values, Context context)
-			throws IOException, InterruptedException {
+	public void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {
 		
-		double sum = 0;
-		int counter = 0;
-		double average = 0;
-
+		double sum = 0.0;
+		double counter = 0.0;
+		double average = 0.0;
+		
 		for (DoubleWritable value : values) {
 			sum += value.get();
 			counter++;
 		}
 		
-		average /= counter;
+		average = sum/counter;
 		
-		context.write(key, new DoubleWritable(average));
+		if(average < 30) {
+			context.write(key, new DoubleWritable(average));
+		}
 	}
 }

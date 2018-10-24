@@ -2,14 +2,13 @@ package com.revature;
 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import com.revature.map.MapperOne;
-import com.revature.reduce.ReducerOne;
+import com.revature.map.MapperTwo;
+import com.revature.reduce.ReducerTwo;
 
 
 
@@ -28,14 +27,15 @@ public class ProjectOne {
 
 		job.setJarByClass(ProjectOne.class);
 
-		job.setJobName("Word Count");
+		job.setJobName("Project One");
 
 
 		FileInputFormat.setInputPaths(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-		job.setMapperClass(MapperOne.class);
-		job.setReducerClass(ReducerOne.class);
+		job.setMapperClass(MapperTwo.class);
+		job.setReducerClass(ReducerTwo.class);
+
 		
 		/*
 		 * For the word count application, the input file and output 

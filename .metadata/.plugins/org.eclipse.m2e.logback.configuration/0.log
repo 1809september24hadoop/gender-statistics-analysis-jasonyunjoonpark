@@ -1,0 +1,277 @@
+2018-10-23 10:19:42,111 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:ProjectOne:0.0.1-SNAPSHOT @ /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne/pom.xml.
+2018-10-23 10:19:49,993 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectOne/src/main/java
+2018-10-23 10:19:49,996 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectOne/src/main/resources
+2018-10-23 10:19:49,997 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ProjectOne/src/test/java
+2018-10-23 10:19:49,997 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ProjectOne/src/test/resources
+2018-10-23 10:19:50,428 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.revature:ProjectOne:0.0.1-SNAPSHOT @ /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne/pom.xml.
+2018-10-23 10:19:50,917 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2018-10-23 10:19:56,126 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:19:56,256 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:19:56,270 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:19:56,271 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:19:59,964 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:19:59,977 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:19:59,982 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:19:59,982 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:44:20,828 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-10-23 10:44:36,468 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 10:44:36,469 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 10:48:36,640 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:48:36,651 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:48:36,655 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:48:36,656 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:53:49,109 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:53:49,118 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:53:49,121 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 10:53:49,137 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 10:54:21,320 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-10-23 10:54:21,553 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 10:54:21,553 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:02:21,739 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:02:21,751 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:02:21,754 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:02:21,762 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:02:36,726 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-10-23 11:02:36,825 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:02:36,825 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:07:31,803 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:07:31,809 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:07:31,814 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:07:31,817 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:07:42,411 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:07:42,411 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:14:28,860 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:14:28,866 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:14:28,868 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:14:28,870 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:14:40,961 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:14:40,962 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:22:44,234 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:22:44,242 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:22:45,236 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:22:45,244 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:22:45,254 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:22:45,258 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:37:19,881 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:37:19,888 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:37:20,688 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:37:20,708 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:37:20,714 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:37:20,754 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:52:47,369 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:52:47,375 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:52:48,134 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:52:48,208 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:52:48,210 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:52:48,212 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:55:47,429 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 11:55:47,431 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 11:55:48,036 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:55:48,043 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:55:48,053 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:55:48,058 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:58:22,897 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:58:22,904 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 11:58:22,926 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 11:58:22,928 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:40:58,785 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 12:40:58,788 [Worker-52] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 12:41:00,451 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:41:00,456 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:41:00,460 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:41:00,480 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:43:20,620 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:43:20,884 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:43:20,906 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:43:20,912 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:45:51,975 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:45:51,978 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:45:51,987 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:45:51,988 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:59:33,997 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:59:34,020 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:59:34,037 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:59:34,056 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:59:35,129 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:59:35,131 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 12:59:35,133 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 12:59:35,134 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:03:31,990 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:03:32,024 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:03:32,038 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:03:32,073 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:14:47,932 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:14:47,934 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:14:49,895 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:14:49,944 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:14:49,950 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:14:49,971 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:35:00,125 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:35:00,136 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:35:00,139 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:35:00,140 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:35:09,523 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:35:09,524 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:35:10,833 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:35:10,836 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:35:10,969 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:35:10,970 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:40:40,387 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:40:40,390 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:40:41,446 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:40:41,462 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:40:41,486 [Worker-71] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:40:41,495 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:43:31,905 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:43:31,906 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:43:34,444 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:43:34,445 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:43:35,106 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:43:35,116 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:43:35,124 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:43:35,146 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:48:26,011 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:48:26,017 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:48:26,669 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:48:26,673 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:48:26,676 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:48:26,679 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:52:00,614 [Worker-76] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:52:00,616 [Worker-76] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:52:01,413 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:52:01,419 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:52:01,431 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:52:01,436 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:52:59,934 [Worker-76] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:52:59,934 [Worker-76] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:53:01,546 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:53:01,551 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:53:01,562 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:53:01,584 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:53:25,381 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:53:25,387 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:53:26,433 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:53:26,435 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:53:26,453 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:53:26,455 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:54:12,657 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:54:12,661 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:54:12,664 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:54:12,666 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:54:13,701 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:54:13,702 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:54:13,704 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:54:13,705 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:55:10,673 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:55:10,724 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:55:10,727 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:55:10,728 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:56:14,006 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:56:14,039 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:56:14,043 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:56:14,046 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:56:24,015 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 13:56:24,015 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 13:56:25,101 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:56:25,197 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 13:56:25,199 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 13:56:25,200 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 14:05:14,579 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-23 14:05:14,584 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-23 14:05:18,299 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 14:05:18,318 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-23 14:05:18,665 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-23 14:05:18,671 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 07:23:18,608 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 07:23:18,662 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 07:23:18,671 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 07:23:18,673 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 09:06:43,474 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 09:06:43,498 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 09:06:43,508 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 09:06:43,511 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 09:07:18,598 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 09:07:18,600 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 09:07:18,602 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 09:07:18,605 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:51:46,892 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:51:46,923 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:51:46,924 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:51:46,927 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:52:30,442 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:52:30,446 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:52:30,447 [Worker-142] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:52:30,447 [Worker-142] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:53:24,114 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2018-10-24 11:53:25,795 [Worker-144] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 11:53:25,795 [Worker-144] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 11:53:26,114 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:53:26,121 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 11:53:26,142 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 11:53:26,142 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:10:34,269 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 12:10:34,307 [Worker-142] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 12:10:36,563 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:10:36,582 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:10:36,584 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:10:36,587 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:20:12,463 [Worker-148] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 12:20:12,465 [Worker-148] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 12:20:13,896 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:20:13,903 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:20:13,904 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:20:13,906 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:34:03,533 [Worker-156] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 12:34:03,620 [Worker-156] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 12:34:06,179 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:34:06,205 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:34:06,208 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:34:06,209 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:39:38,203 [Worker-152] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 12:39:38,206 [Worker-152] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 12:45:27,416 [Worker-162] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 12:45:27,426 [Worker-162] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 12:45:28,451 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:45:28,463 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 12:45:28,486 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 12:45:28,489 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:02:39,534 [Worker-166] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:02:39,563 [Worker-166] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:02:42,800 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:02:42,830 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:02:42,950 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:02:42,955 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:14:20,105 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:14:20,113 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:14:20,114 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:14:20,116 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:15:58,248 [Worker-172] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:15:58,255 [Worker-172] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:16:00,234 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:16:00,276 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:16:00,277 [Worker-176] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:16:00,279 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:25:57,072 [Worker-177] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:25:57,105 [Worker-177] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:25:58,514 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:25:58,520 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:25:58,521 [Worker-180] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:25:58,522 [Worker-180] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:29:05,327 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:29:05,479 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:29:06,337 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:29:06,371 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:29:06,393 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:29:06,401 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:35:18,668 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:35:18,681 [Worker-182] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:39:53,449 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:39:53,459 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:39:53,501 [Worker-188] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:39:53,506 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:39:53,731 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/cloudera/gender-statistics-analysis-jasonyunjoonpark/ProjectOne
+2018-10-24 13:39:53,733 [Worker-185] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean package
+2018-10-24 13:39:55,119 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:39:55,120 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-24 13:39:55,121 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-24 13:39:55,122 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
