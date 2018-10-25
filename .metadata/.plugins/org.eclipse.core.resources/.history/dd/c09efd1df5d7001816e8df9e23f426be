@@ -26,6 +26,7 @@ public class ReducerTwo extends Reducer<Text, DoubleWritable, Text, DoubleWritab
 			nextValue = values.iterator().next().get();
 			sumOfDifferences += (previousValue - nextValue);	
 			previousValue = nextValue;
+			System.out.println(values.iterator().hasNext());
 			counter++;
 		}
 		
