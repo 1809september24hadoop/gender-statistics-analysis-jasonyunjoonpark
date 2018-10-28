@@ -1,0 +1,5 @@
+package com.revature.util;
+
+public class CodeUtil {
+	public static String F_GROSS_TER_GRAD_RATIO_CODE = "SE.TER.CMPL.FE.ZS";
+}

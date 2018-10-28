@@ -6,9 +6,11 @@ import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
+/*
+ * Reduces unique countries to a single value which is a the average change in female enrollment from 2000 to 2016
+ */
+
 public class ReducerTwo extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
-	
-	
 	
 	@Override
 	public void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {

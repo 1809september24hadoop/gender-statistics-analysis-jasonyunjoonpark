@@ -1,0 +1,5 @@
+package com.revature.util;
+
+public class StaticVariablesUtil {
+	public static String fGrossGradRatioCode = "SE.TER.CMPL.FE.ZS";
+}

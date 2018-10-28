@@ -6,7 +6,13 @@ import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Mapper.Context;
+
+import static com.revature.util.CodeUtil.*;
+import static com.revature.util.ColumnIndexUtil.*;
+
+/*
+ * Maps Country (USA) to Net % of Female Primary School Enrollment from 2000 to 2016
+ */
 
 public class MapperTwo extends Mapper<LongWritable, Text, Text, DoubleWritable> {
 
@@ -16,25 +22,12 @@ public class MapperTwo extends Mapper<LongWritable, Text, Text, DoubleWritable> 
 		String lineTrim = line.substring(1, line.length() - 2);
 		String[] col = lineTrim.split("\",\"");
 
-		//USA Primary School Enrollment Female (Net %)
-
-		if(col[1].equals("USA")) {
-			if(col[3].equals("SE.PRM.NENR.FE")){
+		if(col[COUNTRY_CODE_INDEX].equals(USA_CODE) && col[CODE_COLUMN_INDEX].equals(F_TER_ENROLLMENT_CODE)) {		
 				for(int index = 44; index < col.length; index++) {
 					if(!col[index].equals("")) {
-						context.write(new Text("United States " + col[2] + ": "), new DoubleWritable(Double.parseDouble(col[index])));
+						context.write(new Text(col[COUNTRY_INDEX]), new DoubleWritable(Double.parseDouble(col[index])));
 					}
 				}
-			} 
-			
-//			else if(col[3].equals("SE.SEC.NENR.FE")) {
-//				for(int index = 44; index < col.length; index++) {
-//					if(!col[index].equals("")) {
-//						context.write(new Text("United States " + col[2] + ": "), new DoubleWritable(Double.parseDouble(col[index])));
-//					}
-//				}
-//			}
-
 		} 
 
 

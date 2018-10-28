@@ -3,9 +3,12 @@ package com.revature.reduce;
 import java.io.IOException;
 
 import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
+
+/*
+ * Reduces all unique countries and gets the average female primary & secondary graduation rates
+ */
 
 public class ReducerOne extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
 

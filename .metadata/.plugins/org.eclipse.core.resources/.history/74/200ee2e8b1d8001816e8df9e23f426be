@@ -1,0 +1,44 @@
+package com.revature.map;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Mapper.Context;
+
+public class MapperTwo extends Mapper<LongWritable, Text, Text, DoubleWritable> {
+
+	@Override
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+		String line = value.toString();
+		String lineTrim = line.substring(1, line.length() - 2);
+		String[] col = lineTrim.split("\",\"");
+
+		//USA Primary School Enrollment Female (Net %)
+
+		if(col[1].equals("USA")) {
+			if(col[3].equals("SE.PRM.NENR.FE")){
+				for(int index = 44; index < col.length; index++) {
+					if(!col[index].equals("")) {
+						context.write(new Text("United States " + col[2] + ": "), new DoubleWritable(Double.parseDouble(col[index])));
+					}
+				}
+			} 
+			
+//			else if(col[3].equals("SE.SEC.NENR.FE")) {
+//				for(int index = 44; index < col.length; index++) {
+//					if(!col[index].equals("")) {
+//						context.write(new Text("United States " + col[2] + ": "), new DoubleWritable(Double.parseDouble(col[index])));
+//					}
+//				}
+//			}
+
+		} 
+
+
+
+	}
+		
+}

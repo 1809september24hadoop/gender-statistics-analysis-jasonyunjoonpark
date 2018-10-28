@@ -1,0 +1,37 @@
+package com.revature.reduce;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+/*
+ * Reduces unique countries to a single value which is a the average change in female education
+ */
+
+public class ReducerTwo extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
+	
+	@Override
+	public void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {
+		
+		double sumOfDifferences = 0.0;	
+		double previousValue = 0.0;
+		double nextValue = 0.0;
+		int counter = 0;
+		
+		if(values.iterator().hasNext()) {
+			previousValue = values.iterator().next().get();
+		}
+		
+		while(values.iterator().hasNext()) {
+			nextValue = values.iterator().next().get();
+			sumOfDifferences += (previousValue - nextValue);	
+			previousValue = nextValue;
+			counter++;
+		}
+		
+		context.write(key, new DoubleWritable(sumOfDifferences/counter));
+	
+	}
+}

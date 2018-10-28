@@ -1,0 +1,5 @@
+package com.revature.util;
+
+public class ColumnIndexUtil {
+	public static int CODE_COLUMN = 3;
+}

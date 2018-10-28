@@ -6,7 +6,10 @@ import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import org.apache.hadoop.mapreduce.Mapper.Context;
+
+/*
+ * Maps each unique country to 
+ */
 
 public class MapperThree extends Mapper<LongWritable, Text, Text, DoubleWritable> {
 
@@ -18,9 +21,9 @@ public class MapperThree extends Mapper<LongWritable, Text, Text, DoubleWritable
 
 		String country = col[0];
 		
-		if(col[3].equals("SL.EMP.TOTL.SP.MA.ZS")) {
+		if(col[3].equals("SL.EMP.TOTL.SP.MA.ZS") && !col[0].equals("World")) {
 			for(int index = 44; index < col.length; index++) {
-				if(!col[44].equals("") && !col[col.length - 1].equals("")) {
+				if(!col[44].equals("") && !col[col.length - 1].equals("") && !col[44].equals("0") && !col[col.length - 1].equals("")) {
 					
 					if(index == 44){
 						context.write(new Text(country), new DoubleWritable(Double.parseDouble(col[index])));
@@ -31,18 +34,6 @@ public class MapperThree extends Mapper<LongWritable, Text, Text, DoubleWritable
 				}
 			}
 		}
-
-
-//		if(col[3].equals("SL.EMP.TOTL.SP.MA.ZS")){
-//				if(!col[col.length - 1].equals("")) {
-//				double empToPopRatio2016 = Double.parseDouble(col[col.length - 1]);
-//				double empToPopRatio2000 = Double.parseDouble(col[44]);
-//				double percentChangeOfEmp = (empToPopRatio2016 - empToPopRatio2000)/empToPopRatio2000;
-//				
-//				context.write(new Text(country + ": "), new DoubleWritable(percentChangeOfEmp));
-//			}
-//		}
-
 
 	}
 	

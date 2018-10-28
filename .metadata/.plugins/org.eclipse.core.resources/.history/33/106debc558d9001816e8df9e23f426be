@@ -1,0 +1,40 @@
+package com.revature.map;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+import com.revature.util.CodeUtil;
+import com.revature.util.ColumnIndexUtil;
+
+/*
+ * Maps Country to female primary & secondary school graduation rates from 1960 to 2016
+ */
+
+public class MapperOne extends Mapper<LongWritable, Text, Text, DoubleWritable> {
+
+	@Override
+	public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+
+		String line = value.toString();
+		String lineTrim = line.substring(1, line.length() - 2);
+		String[] col = lineTrim.split("\",\"");
+
+		
+		
+		if(col[ColumnIndexUtil.CODE_COLUMN].equals(CodeUtil.F_GROSS_GRAD_RATIO)) {
+			
+			for(int index = ColumnIndexUtil._1960_COLUMN; index < col.length; index++) {
+				if(col[index].length() > 0 && !col[index].equals("")) {
+					context.write(new Text(col[0]), new DoubleWritable(Double.parseDouble(col[index])));
+				}
+			}
+			
+		}
+
+	}
+	
+}
