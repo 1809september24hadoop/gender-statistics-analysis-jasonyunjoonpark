@@ -11,19 +11,20 @@ public class ReducerThree extends Reducer<Text, DoubleWritable, Text, DoubleWrit
 	
 	@Override
 	public void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {
-		
-		double sum = 0.0;
-		double counter = 0.0;
+
 		double average = 0.0;
+		double difference = 0.0;
+		double currentValue = values.iterator().next().get(); 
+		double nextValue = 0.0;
 		
-		for (DoubleWritable value : values) {
-			sum += value.get();
-			counter++;
+		while(values.iterator().hasNext()) {
+			nextValue = values.iterator().next().get();
+			difference = currentValue - nextValue;	
 		}
 		
-		average = sum/counter;
+		average = (difference/nextValue) * 100;
 		
-		context.write(new Text("List the % of change in male employment from the year 2000: "), new DoubleWritable(average));
+		context.write(new Text("Percent change in male employment from the year 2000: "), new DoubleWritable(average));
 	
 	}
 	

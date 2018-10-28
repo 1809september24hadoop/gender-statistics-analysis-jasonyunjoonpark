@@ -23,7 +23,7 @@ public class MapperTwo extends Mapper<LongWritable, Text, Text, DoubleWritable> 
 		String[] col = lineTrim.split("\",\"");
 
 		if(col[COUNTRY_CODE_INDEX].equals(USA_CODE) && col[CODE_COLUMN_INDEX].equals(F_TER_ENROLLMENT_CODE)) {		
-				for(int index = 44; index < col.length; index++) {
+				for(int index = _2000_COLUMN_INDEX; index < col.length; index++) {
 					if(!col[index].equals("")) {
 						context.write(new Text(col[COUNTRY_INDEX]), new DoubleWritable(Double.parseDouble(col[index])));
 					}

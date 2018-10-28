@@ -1,0 +1,43 @@
+package com.revature.reduce;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.DoubleWritable;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.Reducer.Context;
+
+/* 
+ * To define a reduce function for your MapReduce job, subclass 
+ * the Reducer class and override the reduce method.
+ * The class definition requires four parameters: 
+ *   The data type of the input key (which is the output key type 
+ *   from the mapper)
+ *   The data type of the input value (which is the output value 
+ *   type from the mapper)
+ *   The data type of the output key
+ *   The data type of the output value
+ */   
+public class ReducerThreeCombiner extends Reducer<Text, DoubleWritable, Text, DoubleWritable> {
+
+	@Override
+	public void reduce(Text key, Iterable<DoubleWritable> values, Context context) throws IOException, InterruptedException {
+		
+		double difference = 0.0;
+		double currentValue = values.iterator().next().get();  
+		double nextValue = 0.0;
+		double average = 0.0;
+		
+		while(values.iterator().hasNext()) {
+			nextValue = values.iterator().next().get();
+			difference = currentValue - nextValue;	
+		}
+		
+		average = difference/nextValue;
+		
+		context.write(new Text("Percent change: "), new DoubleWritable(average));
+		
+	
+	}
+}
