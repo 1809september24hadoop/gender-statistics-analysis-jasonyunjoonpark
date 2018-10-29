@@ -26,6 +26,6 @@ public class GDPPerCapitaTotalAverageReducer extends Reducer<Text, DoubleWritabl
 		
 		totalAverage = sum/counter;
 		
-		context.write(new Text("Average percent change in GDP per capita since 1960"), new DoubleWritable(totalAverage));
+		context.write(new Text("Average change in GDP per capita since 1960"), new DoubleWritable(totalAverage));
 	}
 }

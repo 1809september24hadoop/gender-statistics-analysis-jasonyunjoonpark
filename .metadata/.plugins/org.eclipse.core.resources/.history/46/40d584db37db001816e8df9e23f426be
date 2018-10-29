@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 import static com.revature.util.CodeUtil.*;
 import static com.revature.util.ColumnIndexUtil.*;
 /*
- * Maps countries to 1960 and 2016 GDP Per Capita for each year
+ * Maps countries to 1960 through 2016 GDP Per Capita for each year
  */
 
 public class GDPMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
